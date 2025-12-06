@@ -1,4 +1,4 @@
-# CORD REVIEW GUIDE
+# CODE REVIEW GUIDE
 
 ## 回答ルール
 
@@ -10,5 +10,5 @@
 
 ## 観点
 
-- @docs/CORDING_RULE.md に違反していないかどうか
+- @docs/CODING_RULE.md に違反していないかどうか
 - @docs/GIT_RULE.md に違反していないかどうか

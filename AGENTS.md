@@ -1,4 +1,4 @@
-# CORDING GUIDE
+# CODING GUIDE
 
 ## 回答ルール
 
@@ -8,7 +8,7 @@
 
 ## 参照すべきドキュメント
 
-`docs/CORDING_RULE.md` - コーディングの際に確認すること
+`docs/CODING_RULE.md` - コーディングの際に確認すること
 `docs/GIT_RULE.md` - Git 操作の際に必ず確認すること
 
 ## コマンドライン
