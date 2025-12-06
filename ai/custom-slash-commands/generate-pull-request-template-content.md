@@ -8,4 +8,4 @@ description: プルリクエストのdescriptionを作成する。
 ただし、 @.github/pull_request_template.md のテンプレートを使用してください。
 その際、「UI」の項目は指示がない場合は無記入のままにしてください（変更を加えないこと）。
 
-最後に、作成した文章を `PULL_REQUEST_{TIMESTAMP}.md` として作成し、 `docs/generated/` に保存してください（`docs/generated/`が存在しない場合は作成してください）。
+最後に、作成した文章を `PULL_REQUEST_{TIMESTAMP}.md` として作成し、 `ai/generated-pull-request-content/` に保存してください（`ai/generated-pull-request-content/`が存在しない場合は作成してください）。
