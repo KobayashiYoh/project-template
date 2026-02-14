@@ -1,1 +1,1 @@
-@ai/custom-slash-commands/generate-pull-request-template-content.md
+@ai/commands/generate-pull-request-template-content.md

@@ -1,1 +1,1 @@
-@ai/custom-slash-commands/add-and-commit.md
+@ai/commands/add-and-commit.md

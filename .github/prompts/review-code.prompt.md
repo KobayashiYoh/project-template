@@ -1,1 +1,1 @@
-@ai/custom-slash-commands/review-code.md
+@ai/commands/review-code.md

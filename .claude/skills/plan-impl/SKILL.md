@@ -1,1 +1,1 @@
-@ai/custom-slash-commands/plan-impl.md
+@ai/commands/plan-impl.md

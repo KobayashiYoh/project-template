@@ -1,1 +1,1 @@
-@ai/custom-slash-commands/update-pull-request.md
+@ai/commands/update-pull-request.md

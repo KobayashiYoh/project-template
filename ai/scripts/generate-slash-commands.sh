@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # スラッシュコマンドの自動生成スクリプト
-# ai/custom-slash-commands ディレクトリを参照して、
+# ai/commands ディレクトリを参照して、
 # .claude と .github/prompts に同じファイルを生成する
 
 set -e
@@ -9,7 +9,7 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "$(dirname "${SCRIPT_DIR}")" && pwd)"
 
-SOURCE_DIR="${PROJECT_ROOT}/ai/custom-slash-commands"
+SOURCE_DIR="${PROJECT_ROOT}/ai/commands"
 CLAUDE_DIR="${PROJECT_ROOT}/.claude/commands"
 GITHUB_DIR="${PROJECT_ROOT}/.github/prompts"
 
@@ -20,7 +20,7 @@ for file in "${SOURCE_DIR}"/*.md; do
   target="${CLAUDE_DIR}/$filename"
   if [ ! -f "$target" ]; then
     mkdir -p "${CLAUDE_DIR}"
-    echo "@ai/custom-slash-commands/$filename" > "$target"
+    echo "@ai/commands/$filename" > "$target"
     echo "  Created: $filename"
   fi
 done
@@ -32,7 +32,7 @@ for file in "${SOURCE_DIR}"/*.md; do
   target="${GITHUB_DIR}/${filename}.prompt.md"
   if [ ! -f "$target" ]; then
     mkdir -p "${GITHUB_DIR}"
-    echo "@ai/custom-slash-commands/${filename}.md" > "$target"
+    echo "@ai/commands/${filename}.md" > "$target"
     echo "  Created: ${filename}.prompt.md"
   fi
 done

@@ -1,1 +1,1 @@
-@ai/custom-slash-commands/fetch-issue.md
+@ai/commands/fetch-issue.md

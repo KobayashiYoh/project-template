@@ -1,1 +1,1 @@
-@ai/custom-slash-commands/create-issue.md
+@ai/commands/create-issue.md

@@ -1,1 +1,1 @@
-@ai/custom-slash-commands/generate-custom-slash-commands-for-each-ai.md
+@ai/commands/generate-commands-for-each-ai.md

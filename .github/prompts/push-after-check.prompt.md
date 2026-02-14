@@ -1,1 +1,1 @@
-@ai/custom-slash-commands/push-after-check.md
+@ai/commands/push-after-check.md

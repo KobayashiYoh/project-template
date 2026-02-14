@@ -1,1 +1,1 @@
-@ai/custom-slash-commands/create-branch.md
+@ai/commands/create-branch.md

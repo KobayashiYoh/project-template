@@ -1,1 +1,1 @@
-@ai/custom-slash-commands/pull-develop.md
+@ai/commands/pull-develop.md
